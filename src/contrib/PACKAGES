@@ -1,12 +1,11 @@
 Package: bamr
-Version: 0.1.2
-Depends: R (>= 3.0.2), Rcpp (>= 0.12.11), methods
-Imports: rstan (>= 2.16.2), rstantools (>= 1.2.1), reshape2,
-        assertthat, ggplot2, settings, Rcpp, methods, bayesplot,
-        parallel, tidyr, truncnorm, magic, mvtnorm, dplyr, stats, rlang
-LinkingTo: StanHeaders (>= 2.16.0.1), rstan (>= 2.16.2), BH (>=
-        1.62.0.1), Rcpp (>= 0.12.11), RcppEigen (>= 0.3.3.3.0)
+Version: 0.1.6
+Depends: R (>= 3.4.0), Rcpp (>= 0.12.18), methods
+Imports: rstan (>= 2.17.3), rstantools (>= 1.5.1), reshape2, ggplot2,
+        settings, parallel, dplyr, stats, rlang
+LinkingTo: StanHeaders (>= 2.17.2), rstan (>= 2.17.3), BH (>=
+        1.66.0-1), Rcpp (>= 0.12.18), RcppEigen (>= 0.3.3.4.0)
 Suggests: knitr, rmarkdown, covr, testthat
 License: GPL-3
-MD5sum: ac48abcd4ad17a720471bdda9b6f3fe5
+MD5sum: 63e7f2861a4cf0c0341e3a8fea4fb68a
 NeedsCompilation: yes
