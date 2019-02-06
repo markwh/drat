@@ -1,8 +1,10 @@
 Package: bamr
 Version: 0.1.6
 Depends: R (>= 3.4.0), Rcpp (>= 0.12.18), methods
-Imports: rstan (>= 2.17.3), rstantools (>= 1.5.1), reshape2, ggplot2, settings, parallel, dplyr, stats, rlang
-LinkingTo: StanHeaders (>= 2.17.2), rstan (>= 2.17.3), BH (>= 1.66.0-1), Rcpp (>= 0.12.18), RcppEigen (>= 0.3.3.4.0)
+Imports: rstan (>= 2.17.3), rstantools (>= 1.5.1), reshape2, ggplot2,
+        settings, parallel, dplyr, stats, rlang
+LinkingTo: StanHeaders (>= 2.17.2), rstan (>= 2.17.3), BH (>=
+        1.66.0-1), Rcpp (>= 0.12.18), RcppEigen (>= 0.3.3.4.0)
 Suggests: knitr, rmarkdown, covr, testthat
 License: GPL-3
 Archs: i386, x64
