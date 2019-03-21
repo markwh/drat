@@ -1,5 +1,5 @@
 Package: bamr
-Version: 0.1.6.9001
+Version: 0.1.7
 Depends: R (>= 3.4.0), Rcpp (>= 0.12.18), methods
 Imports: rstan (>= 2.17.3), rstantools (>= 1.5.1), reshape2, ggplot2, settings, parallel,
           dplyr, stats, rlang
